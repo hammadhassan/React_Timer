@@ -66,8 +66,8 @@ class TimerWrapper extends React.Component {
         React.createElement(Button, { time: '15', startTimer: this.startTimer })
       ),
       React.createElement(Timer, { timeLeft: this.state.timeLeft }),
-      React.createElement('audio', { id: 'end-of-time', src: 'media/psl_ringtone.mp3', preload: 'auto' }),
-      React.createElement('img', { id: 'end-of-time', src: 'media/psl.png',})
+      React.createElement('audio', { id: 'end-of-time', src: 'media/psl_ringtone.mp3', preload: 'auto' })
+      /*React.createElement('img', { id: 'end-of-time', src: 'media/psl.png',})*/
     );
   }
 }
